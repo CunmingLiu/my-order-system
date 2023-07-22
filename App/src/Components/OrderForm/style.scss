@@ -1,0 +1,38 @@
+/**
+* @file 
+* @date 2023-07-22
+* @author Cunming Liu
+* @lastModify  2023-07-22
+*/
+/* <------------------------------------ **** CONSTANT IMPORT START **** ------------------------------------ */
+/** Import all the reference constant after this line */
+/* <------------------------------------ **** CONSTANT IMPORT END **** ------------------------------------ */
+/* <------------------------------------ **** SECTION1 MIXIN START **** ------------------------------------ */
+/* <------------------------------------ **** SECTION1 MIXIN END **** ------------------------------------ */
+* {
+    margin: 0;
+    padding: 0;
+}
+.wrapper {
+    margin: auto;
+    height: 300px;
+    border: 1px solid rgba(100, 100, 100, 0.2);
+    overflow-y: scroll;
+}
+
+ul.container {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+}
+ul.container > li {
+    height: 30px;
+    width: 100%;
+    cursor: pointer;
+}
+ul.container > li.green-item {
+    background-color: #c5e3ff;
+}
+ul.container > li.red-item {
+    background-color: #fff5d5;
+}
